@@ -89,7 +89,8 @@ To prevent the printer from re-updating and to ensure network stability, log bac
 
 #### Network -> IPv4 Configuration:
 
-- Change config from **DHCP** to **Manual / Static** to lock the current IP address permanently.
+1. Change the setting from **DHCP** to **Manual / Static** to lock the current IP address permanently in the printer's EWS.
+2. **Recommended (FRITZ!Box Fix):** To prevent IP conflicts, log into your router's interface (usually via `http://192.168.178.1` or `http://fritz.box`), navigate to **Home Network** > **Network**, locate your HP printer, open its settings, and check the box for **"Always assign this network device the same IPv4 address"** ("Diesem Netzwerkgerät immer die gleiche IPv4-Adresse zuweisen").
 
 ---
 
